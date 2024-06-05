@@ -1,0 +1,383 @@
+1718209733
+a:2:{s:7:"content";s:12366:"<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D3 Manajemen Pemasaran</title>
+  <style>
+h3 {
+  color: #FFFFFF;
+}
+h5 {
+  color: #FFFFFF; 
+}
+.image-container2 {
+    display: flex;
+    align-items: left;
+    margin-left: -200px;
+}
+.judul {
+  text-align: center;
+  position: relative;
+  top: 800px;
+}
+.judul h1 {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .judul h1 {
+    font-size: 60px;
+    margin-top: -1000px;
+  }
+}
+.profil {
+  position: relative;
+   right: 25px;
+    margin-left: 500px;
+    padding-top: 875px;
+    padding-bottom: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .profil {
+    width: 60%; 
+    height: auto;
+      left: -300px;
+  }
+}
+.profil2 {
+  position: relative;
+  top: 900px;
+  left: -25px;
+  width: 600px; 
+  height: 200px; 
+}
+@media only screen and (max-width: 768px) {
+  .profil2 {
+    width: 70%; 
+    height: auto;
+  }
+}
+  .content {
+      width: 100% auto;
+      margin: 50px auto;
+    position: relative;
+      padding: 20px 100px;
+      top: -990px;
+      left: 160px;
+  }
+  @media only screen and (max-width: 768px) {
+  .content {
+    width: 125%; 
+    top: -320px;
+     left: -50px;
+  }
+}
+.content h5 {
+  color: #333;
+  text-align: center;
+}
+.image-container img {
+    width: 50%; 
+     margin-right: 50px;
+}
+body {
+  background-color: #f5f5f5;
+  background-image: url('https://unair.ac.id/wp-content/uploads/2022/01/465-UNAIR.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-position: center top;
+  }
+}
+p {
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+.rectangle {
+  width: 415px; 
+  height: 540px; 
+  background: linear-gradient(to right, #005c97, #363795);
+  transform: translateX(-170px) translateY(80px); 
+}
+@media only screen and (max-width: 768px) {
+  .rectangle {
+    width: 415px; 
+    height: 540px;
+    background: linear-gradient(to right, #005c97, #363795);
+    transform: translateX(10px) translateY(80px); 
+  }
+}
+.akreditasi {
+   position: relative;
+  top: -450px;
+  left: -110px;
+  width: 300px; 
+  height: 200px; 
+}
+@media only screen and (max-width: 768px) {
+  .akreditasi {
+   position: relative;
+  top: -450px;
+  left: 67px;
+  width: 300px; 
+  height: 200px; 
+}
+}
+.akreditasi2 {
+  color: white; 
+  padding: 10px; 
+  position: relative; 
+  left: -450px;
+  top: -370px; 
+  text-align: center;
+}
+ @media only screen and (max-width: 768px) {
+  .akreditasi2 {
+  left: -7px;;
+  }
+}
+.lulusan {
+  margin-top: -1000px;
+  background: linear-gradient(#005c97, #363795);
+}
+  @media only screen and (max-width: 768px) {
+  .lulusan {
+   margin-top: -400px;
+  padding-top:-1500px;
+  }
+}
+.lulusan p {
+  padding: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+  text-align: left;
+}
+.lulusan h4 {
+  padding-top: 23px;
+  padding-left: 200px;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .lulusan p {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .lulusan h4 {
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .lulusan p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .lulusan h4 {
+    padding-left: 50px;
+  }
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  border-collapse: collapse; 
+}
+@media only screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+}
+td {
+  border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+th {
+    background-color: #e3e3e3;
+}
+footer {
+   background: linear-gradient(#005c97, #363795);
+    color: white;
+    padding: 20px 0;
+}
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logos img {
+    margin: 0px;
+    height: 100px;
+}
+.address {
+  position: relative;
+    left: 0px;
+}
+.address, .social-media {
+    text-align: center;
+}
+.social-icons img {
+    margin: 0 10px;
+    height: 30px;
+}
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    position: relative;
+    left: -425px;
+    top: -60px;
+}
+@media (max-width: 768px) {
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logos img {
+        height: 40px;
+    }
+    .social-icons img {
+        height: 25px;
+    }
+}
+  </style>
+</head>
+<body id="home">
+<div class ="judul"><h1>D3 Manajemen Pemasaran</h1></div>
+  <div class="profil2">
+    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/08/cover-d3-manajemen-pemasaran.jpg" >
+</div>
+<div class="profil">
+    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/07/20230615_-Mengenal-Lebih-Dekat-Program-Studi-Bahasa-Inggris-Vokasi-Universitas-Airlangga.webp">
+</div>
+    <div class="text-container">
+        <h2>Profile Program Studi</h2>
+        <p>Program Studi D3 Manajemen Pemasaran merupakan layanan pendidikan diploma tiga yang memiliki sistem jaminan mutu pendidikan yang baik. Program ini menjawab tingginya kebutuhan industri akan lulusan ahli madya profesional yang memiliki integritas serta kepekaan bisnis yang tinggi. Skema dan strategi pembelajaran secara khusus dibentuk bersama-sama dengan dunia industri, demi menghasilkan lulusan-lulusan yang berkompeten di bidang manajemen pemasaran. Berkembangnya kebutuhan industri dan tantangan era industri 4.0, juga menggerakan program studi D3 Manajemen Pemasaran terus beradaptasi dengan mengedepankan hands-on training dan project based education.</p>
+    </div>
+    <div class="rectangle"></div>
+    <div class="akreditasi">
+    <img src="https://unihaz.ac.id/wp-content/uploads/2021/05/logo-akre-baik-sekali.png">
+</div>
+<div class ="akreditasi2">
+<h5 >Gelar & Strata</h5>
+<p>A.Md.M(Ahli Madya Manajemen) – Sarjana Terapan (D3)</p>
+<h5>SK & Sertifikat Akreditasi</h5>
+<p>SK Akreditasi (BAN-PT)</p>
+<p>Sertifikat Akreditasi (BAN-PT)</p>
+</div>
+<div class="content">
+        <h5>VISI</h5>
+        <p>“Become a leading center for education and teaching of Diploma III in Marketing Management at the national and international levels through vocational education activities in the field of marketing by always prioritizing morals, ethics, religion”</p>
+        <h5>MISI</h5>
+        <p>1. Organizing education and teaching in the field of marketing management that is competitive both nationally and internationally 2. Carrying out applied research in the field of marketing management on a national and international scale 3. Organizing community service for the industrial world, especially MSMEs in accordance with business developments in the field of marketing.</p>
+        <h5>Tujuan</h5>
+        <p>1. Menghasilkan lulusan Ahli Madya bidang Manajemen Pemasaran yang berkualitas dan berdaya saing di tingkat nasional dan internasional, dan memiliki kompetensi sesuai dengan kebutuhan industri, serta memiliki jiwa kewirausahaan yang kuat.<br>
+        2. Menghasilkan Penelitian terapan tingkat nasional dan internasional yang bermanfaat bagi pengembangan ilmu pengetahuan, teknologi dan berorientasi pada pencapaian publikasi ilmiah, paten dan hak kekayaan intelektual.<br>
+        3. Melakukan Pengabdian Kepada Masyarakat tingkat nasional dan internasional yang berorientasi pada peningkatan kesejahteraan masyarakat.<br>
+        4. Melakukan pengelolaan sistem pendidikan yang bertata kelola rapi dan baik, serta menghasilkan pendidikan berbasis kompetensi yang link-and-match dengan kebutuhan industri.
+    </div>
+    </div>
+    <div class="lulusan"><h4>Profil lulusan</h4>
+<p>Lulusan program studi D3 Manajemen Pemasaran dengan spesialisasi Administrasi Publik memiliki keunggulan dalam pengelolaan kegiatan lapangan di sektor publik dengan kesadaran yang kuat terhadap nilai-nilai publik. Mereka dilatih untuk menjadi administrator operasional yang efektif dalam menyelenggarakan tata kerja institusi pemerintahan, BUMN, lembaga riset, partai politik, pers, dan organisasi nirlaba lainnya. Profil keahlian mereka mencakup dua aspek utama: sebagai Manajer Publik, mereka mampu mengelola berbagai kegiatan di sektor publik dengan pemahaman mendalam tentang prinsip-prinsip manajemen, serta berpotensi bekerja di lembaga eksekutif, legislatif, sektor swasta, atau bahkan berwirausaha di sektor pelayanan publik dan manajemen publik. Sebagai Analis Kebijakan Publik, lulusan dilatih untuk merumuskan kebijakan dan memberikan rekomendasi berkualitas, serta dapat berperan dalam perencanaan, pengembangan, dan pengkajian tingkat pratama dalam organisasi publik. Peluang karir mereka meliputi berbagai sektor, mulai dari lembaga pemerintahan, BUMN, media dan pers, hingga organisasi nirlaba, dengan potensi untuk berwirausaha dan melanjutkan studi ke jenjang magister dalam bidang terkait.</p>
+</div>
+
+<div>
+<h4 style="text-align: center;">Dosen Pengajar</h4>
+<table>
+    <thead>
+        <tr>
+            <th>Nama Dosen</th>
+            <th>NIK</th>
+            <th>Bidang Keahlian</th>
+            <th>Pendidikan</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Edwin Fiatiano, S.Sos., M.Si.</td>
+            <td>197311021998031003</td>
+            <td>Strategi pemasaran</td>
+            <td>S2</td>
+        </tr>
+        <tr>
+            <td>Rizka Miladiah Ervianty, S.E.</td>
+            <td>1981 0127 201504 3201</td>
+            <td>Perilaku konsumen</td>
+            <td>S2</td>
+        </tr>
+         <tr>
+            <td>Maurisia Putri Permatasari, S.E., MSc.</td>
+            <td>19860922 201504 3201</td>
+            <td>pemasaran jasa</td>
+            <td>S2</td>
+        </tr><tr>
+            <td>Phima Ruthia Dwikesumasari, S.E., MSM.</td>
+            <td>19870630 201504 3201
+            <td>Consumer Behavior</td>
+            <td>S2</td>
+        </tr> <tr>
+            <td>Damar Kristanto, S.E., M.SM</td>
+            <td>19890502 201808 3 101</td>
+            <td>Branding Strategy</td>
+            <td>S2</td>
+        </tr> <tr>
+            <td>Moh. Darus Salam, S.E., MBA</td>
+            <td>198705012018083101</td>
+            <td>Maarketing Management</td>
+            <td>S2</td>
+        </tr> <tr>
+            <td>Adhimas Paramadina Mahdi, SE.</td>
+            <td>198709222018035101</td>
+            <td>Marketing Management</td>
+            <td>S1</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+  <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logos">
+                    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/02/logo-brand.png">
+                </div>
+                <div class="address">
+                    <h3>KAMPUS B</h3>
+                    <p>Jl. Dharmawangsa Dalam Selatan No.28 – 30,<br>Surabaya Indonesia 60286<br>
+                    Telp.: +62 – 031 – 5033869, 031 – 5053156</p>
+                </div>
+                <div class="social-media">
+                    <h3>Media Sosial</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png" alt="WhatsApp"></a>
+                        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook"></a>
+                        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="linkedin"></a>
+                        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>FAKULTAS VOKASI UNIVERSITAS AIRLANGGA</p>
+            </div>
+        </div>
+    </footer>
+  <footer class="bg-blue text-white text-center">
+      <p>created with Grav By Kelompok 15 Manajemen Pemasaran</p>
+    </footer>
+</body>
+</html>";s:12:"content_meta";N;}

@@ -2,28 +2,33 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => 'C:/xampp/htdocs/grav-admin/user/data/flex/indexes/pages.json',
-    'modified' => 1717592719,
-    'size' => 1810,
+    'modified' => 1717594814,
+    'size' => 1848,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1717592719,
+        'timestamp' => 1717594814,
         'count' => 8,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
-                'template' => NULL,
-                'storage_timestamp' => 1717591265,
-                'children' => [
-                    '01.home' => 1717591120,
-                    '02.tentang-kami' => 1717589138,
-                    '03.program' => 1717587133,
-                    '04.akademik' => 1717591203,
-                    '05.kemahasiswaan' => 1717591217,
-                    '06.informasi-lainnya' => 1717591254,
-                    '07.download' => 1717591265
+                'template' => 'root',
+                'storage_timestamp' => 1717594814,
+                'markdown' => [
+                    '' => [
+                        'root' => 1717594814
+                    ]
                 ],
-                'checksum' => '79ac54f03553ac0df0c40e60fe7aed24'
+                'children' => [
+                    '01.home' => 1717592682,
+                    '02.tentang-kami' => 1717592174,
+                    '03.program' => 1717591858,
+                    '04.akademik' => 1717591451,
+                    '05.kemahasiswaan' => 1717592409,
+                    '06.informasi-lainnya' => 1717592384,
+                    '07.download' => 1717592392
+                ],
+                'checksum' => '06b870e52d099b6bc490168c5558ed43'
             ],
             '01.home' => [
                 'key' => 'home',

@@ -3,40 +3,39 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>D3 Manajemen Pemasaran</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
   <style>
 h3 {
-  color: #FFFFFF; /* set text color to white */
+  color: #FFFFFF;
 }
-
 h5 {
-  color: #FFFFFF; /* or simply "white" */
+  color: #FFFFFF; 
 }
-
 .image-container2 {
     display: flex;
     align-items: left;
     margin-left: -200px;
 }
-
 .judul {
   text-align: center;
   position: relative;
   top: 800px;
 }
-
+@media only screen and (max-width: 768px) {
+  .judul {
+    margin-top: -450px;
+  }
+}
 .judul h1 {
   display: inline-block;
   margin: 0 auto;
   font-size: 80px;
 }
-
 @media only screen and (max-width: 768px) {
   .judul h1 {
     font-size: 60px;
+    margin-top: -1000px;
   }
 }
-
 .profil {
   position: relative;
    right: 25px;
@@ -55,79 +54,108 @@ h5 {
   position: relative;
   top: 900px;
   left: -25px;
-  width: 600px; /* adjust the value as needed */
-  height: 200px; /* adjust the value as needed */
+  width: 600px; 
+  height: 200px; 
 }
-
 @media only screen and (max-width: 768px) {
   .profil2 {
     width: 70%; 
     height: auto;
   }
 }
-
   .content {
       width: 100% auto;
       margin: 50px auto;
     position: relative;
       padding: 20px 100px;
-      top: -990px;
+      top: -1100px;
       left: 160px;
   }
-
+  @media only screen and (max-width: 768px) {
+  .content {
+    width: 125%; 
+    top: -400px;
+     left: -50px;
+  }
+}
 .content h5 {
   color: #333;
   text-align: center;
 }
-
 .image-container img {
     width: 50%; 
      margin-right: 50px;
 }
-
 body {
-   background-color: #f5f5f5;
+  background-color: #f5f5f5;
   background-image: url('https://unair.ac.id/wp-content/uploads/2022/01/465-UNAIR.jpg');
-  background-size: cover; /* Membuat gambar latar belakang mencakup seluruh halaman */
-   background-position: center;; /* Memposisikan gambar di tengah */
-  background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
-
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-position: center top;
+  }
+}
 p {
 font-family: Arial, sans-serif;
 font-size: 16px;
 }
-
 .rectangle {
-  width: 415px; /* adjust the width */
-  height: 540px; /* adjust the height */
+  width: 415px; 
+  height: 540px; 
   background: linear-gradient(to right, #005c97, #363795);
-  transform: translateX(-170px) translateY(80px); /* shift the rectangle to the left */
+  transform: translateX(-170px) translateY(80px); 
 }
-
+@media only screen and (max-width: 768px) {
+  .rectangle {
+    width: 415px; 
+    height: 540px;
+    background: linear-gradient(to right, #005c97, #363795);
+    transform: translateX(10px) translateY(80px); 
+  }
+}
 .akreditasi {
    position: relative;
   top: -450px;
   left: -110px;
-  width: 300px; /* adjust the value as needed */
-  height: 200px; /* adjust the value as needed */
+  width: 300px; 
+  height: 200px; 
 }
-
+@media only screen and (max-width: 768px) {
+  .akreditasi {
+   position: relative;
+  top: -450px;
+  left: 67px;
+  width: 300px; 
+  height: 200px; 
+}
+}
 .akreditasi2 {
-  color: white; /* set the text color to white */
-  padding: 10px; /* add padding to the text */
-  position: relative; /* make the text positionable */
-  left: -450px; /* move the text to the left by 100 pixels */
-  top: -370px; /* move the text up by 1000 pixels */
+  color: white; 
+  padding: 10px; 
+  position: relative; 
+  left: -450px;
+  top: -370px; 
   text-align: center;
 }
-
+ @media only screen and (max-width: 768px) {
+  .akreditasi2 {
+  left: -7px;;
+  }
+}
 .lulusan {
   margin-top: -1000px;
   background: linear-gradient(#005c97, #363795);
 }
-
+  @media only screen and (max-width: 768px) {
+  .lulusan {
+   margin-top: -400px;
+  padding-top:-1500px;
+  }
+}
 .lulusan p {
   padding: 20px;
   padding-left: 200px;
@@ -135,15 +163,11 @@ font-size: 16px;
   color: white;
   text-align: left;
 }
-
 .lulusan h4 {
   padding-top: 23px;
   padding-left: 200px;
   color: white;
 }
-
-/* Media queries for responsiveness */
-
 @media only screen and (max-width: 768px) {
   .lulusan p {
     padding-left: 100px;
@@ -153,7 +177,6 @@ font-size: 16px;
     padding-left: 100px;
   }
 }
-
 @media only screen and (max-width: 480px) {
   .lulusan p {
     padding-left: 50px;
@@ -163,15 +186,12 @@ font-size: 16px;
     padding-left: 50px;
   }
 }
-
 table {
   width: 80%;
   margin: 0 auto;
   padding-top: 50px;
-  border-collapse: collapse;
-  
+  border-collapse: collapse; 
 }
-
 @media only screen and (max-width: 768px) {
   table {
     font-size: 14px;
@@ -181,18 +201,15 @@ td {
   border: 1px solid #dddddd;
     text-align: left;
     padding: 5px;
-
 }
 th {
     background-color: #e3e3e3;
 }
-
 footer {
    background: linear-gradient(#005c97, #363795);
     color: white;
     padding: 20px 0;
 }
-
 .footer-content {
     width: 80%;
     margin: 0 auto;
@@ -200,32 +217,26 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-
 .footer-section {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-
 .logos img {
     margin: 0px;
     height: 100px;
 }
-
 .address {
   position: relative;
     left: 0px;
 }
-
 .address, .social-media {
     text-align: center;
 }
-
 .social-icons img {
     margin: 0 10px;
     height: 30px;
 }
-
 .footer-bottom {
     margin-top: 20px;
     text-align: center;
@@ -235,17 +246,14 @@ footer {
     left: -425px;
     top: -60px;
 }
-
 @media (max-width: 768px) {
     .footer-section {
         flex-direction: column;
         align-items: center;
     }
-
     .logos img {
         height: 40px;
     }
-
     .social-icons img {
         height: 25px;
     }
@@ -255,10 +263,10 @@ footer {
 <body id="home">
 <div class ="judul"><h1>D3 Manajemen Pemasaran</h1></div>
   <div class="profil2">
-    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/08/cover-d3-manajemen-pemasaran.jpg" alt="Image">
+    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/08/cover-d3-manajemen-pemasaran.jpg" >
 </div>
 <div class="profil">
-    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/07/20230615_-Mengenal-Lebih-Dekat-Program-Studi-Bahasa-Inggris-Vokasi-Universitas-Airlangga.webp" alt="Image">
+    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/07/20230615_-Mengenal-Lebih-Dekat-Program-Studi-Bahasa-Inggris-Vokasi-Universitas-Airlangga.webp">
 </div>
     <div class="text-container">
         <h2>Profile Program Studi</h2>
@@ -266,7 +274,7 @@ footer {
     </div>
     <div class="rectangle"></div>
     <div class="akreditasi">
-    <img src="https://unihaz.ac.id/wp-content/uploads/2021/05/logo-akre-baik-sekali.png" alt="Image">
+    <img src="https://unihaz.ac.id/wp-content/uploads/2021/05/logo-akre-baik-sekali.png">
 </div>
 <div class ="akreditasi2">
 <h5 >Gelar & Strata</h5>
@@ -277,11 +285,9 @@ footer {
 </div>
 <div class="content">
         <h5>VISI</h5>
-        <p>“Become a leading center for education and teaching of Diploma III in Marketing Management at the national and international levels through vocational education activities in the field of marketing by always prioritizing morals, ethics, religion”</p>
-        
+        <p>“Menjadi pusat pendidikan dan pengajaran Diploma III Manajemen Pemasaran yang unggul di tingkat nasional dan internasional melalui kegiatan pendidikan vokasi di bidang pemasaran dengan selalu mengedepankan moral, etika, agama”</p>
         <h5>MISI</h5>
-        <p>1. Organizing education and teaching in the field of marketing management that is competitive both nationally and internationally 2. Carrying out applied research in the field of marketing management on a national and international scale 3. Organizing community service for the industrial world, especially MSMEs in accordance with business developments in the field of marketing.</p>
-        
+        <p>1. Menyelenggarakan pendidikan dan pengajaran di bidang manajemen pemasaran yang berdaya saing nasional dan internasional 2. Menyelenggarakan penelitian terapan di bidang manajemen pemasaran dalam skala nasional dan internasional 3. Menyelenggarakan pengabdian kepada masyarakat bagi dunia industri khususnya UMKM di sesuai dengan perkembangan usaha di bidang pemasaran.</p>
         <h5>Tujuan</h5>
         <p>1. Menghasilkan lulusan Ahli Madya bidang Manajemen Pemasaran yang berkualitas dan berdaya saing di tingkat nasional dan internasional, dan memiliki kompetensi sesuai dengan kebutuhan industri, serta memiliki jiwa kewirausahaan yang kuat.<br>
         2. Menghasilkan Penelitian terapan tingkat nasional dan internasional yang bermanfaat bagi pengembangan ilmu pengetahuan, teknologi dan berorientasi pada pencapaian publikasi ilmiah, paten dan hak kekayaan intelektual.<br>
@@ -347,14 +353,11 @@ footer {
 </table>
 </div>
 
-<!-- Move the white background div below the paragraph -->
-  
-
   <footer>
         <div class="footer-content">
             <div class="footer-section">
                 <div class="logos">
-                    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/02/logo-brand.png" alt="Logo 1">
+                    <img src="https://vokasi.unair.ac.id/wp-content/uploads/2023/02/logo-brand.png">
                 </div>
                 <div class="address">
                     <h3>KAMPUS B</h3>
