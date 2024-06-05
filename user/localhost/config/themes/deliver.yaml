@@ -1,0 +1,5 @@
+enabled: true
+dropdown:
+  enabled: true
+sticky_menu:
+  enabled: true

@@ -1,0 +1,32 @@
+enabled: true
+social_links:
+  -
+    title: Twitter
+    icon: twitter
+    url: '#'
+  -
+    title: Facebook
+    icon: facebook
+    url: '#'
+  -
+    title: Instagram
+    icon: instagram
+    url: '#'
+  -
+    title: Github
+    icon: github
+    url: '#'
+  -
+    title: Dribbble
+    icon: dribbble
+    url: '#'
+  -
+    title: Google+
+    icon: google-plus
+    url: '#'
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      paths:
+        - user/themes/alpha
